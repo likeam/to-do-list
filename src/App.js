@@ -11,7 +11,6 @@ function App() {
     setTodoList([...todoList, {task: currentTask, completed: false}]);
     inputTask.current.value = "";
     setCurrentTask(""); 
-    console.log(todoList);
   }
 
   const deleteTask = (taskToDelete) => {
